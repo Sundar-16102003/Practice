@@ -1,6 +1,6 @@
 	 class InnerClass
 {
-	static String car="BMW";
+	String car="BMW";
 	
 	 class InnerClass2
 	{
