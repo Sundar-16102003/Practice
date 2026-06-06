@@ -12,6 +12,8 @@
 	}
 	public static void main(String[] args) 
 	{
+		//A-outer class
+		//B-inner class
 		A inc=new A();
 		System.out.println(inc.car);
 		A.B inc2=inc.new B();
