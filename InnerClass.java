@@ -1,6 +1,6 @@
 	 class A
 {
-	String car="BMW";
+	private String car="BMW";
 	
 	 class B
 	{
@@ -12,7 +12,7 @@
 	}
 	public static void main(String[] args) 
 	{
-		//A-outer class
+		//A-outer classp
 		//B-inner class
 		A inc=new A();
 		System.out.println(inc.car);
