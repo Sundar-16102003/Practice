@@ -2,8 +2,10 @@ class Anagram
 {
 	public static void main(String[] args) 
 	{
-		String str1="listen";
+		String str1="Listen";
 		String str2="silent";
+		str1=str1.toLowerCase();
+		str2=str2.toLowerCase();
 		char ch[]=str1.toCharArray();
 		char ch2[]=str2.toCharArray();
 		char[] getOutput=sorting(ch);
