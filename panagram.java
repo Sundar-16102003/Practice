@@ -2,7 +2,7 @@ class Panagram
 {
 	public static void main(String[] args) 
 	{
-		String name="abcdefghijklmnopqrstuvwxyz{[";
+		String name="abcdefghisfgfsgfjklmnopfbdfdfdfqrstuvwxyz{[";
 		name=name.toLowerCase();
 		String r_name="";
 		for(int i=0;i<name.length();i++)
