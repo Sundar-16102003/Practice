@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.LinkedList;
 class Loops
 {
 	public static void main(String[] args) 
@@ -15,6 +16,16 @@ class Loops
 		{
 			System.out.println(name[i] +":" +rand.nextLong(6666666666l,9999999999l));
 		}
+		LinkedList ll=new LinkedList();
+		ll.add(7708230612l);
+		ll.add("siva");
+		ll.add(10.0);
+		
+		for(Object ob:ll)
+		{
+			System.out.println(ob);
+		}
+		
 		
 	}
 }
