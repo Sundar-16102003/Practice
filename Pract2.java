@@ -3,27 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 public class Pract2 {
     public static void main(String[] args) {
-        Comparator<String> cs=new Comparator<String>() {
-            
-                @Override
-                public int compare(String a,String b) {
-                
-if(a.length()>b.length())
-{
-    return 1;
-}
-else if(a.length()<b.length())
-    {
-    return -1;
-}
-else{
-    return 0;
-}
-                }
-        };
-
-            
-        
+        Comparator<String> cs=(a, b) ->  a.length()>b.length()?1:-1; 
         ArrayList<String> al=new ArrayList<String>();
         al.add("sundar");
         al.add("ashok");
