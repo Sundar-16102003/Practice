@@ -33,4 +33,3 @@ Collections.sort(li,c);
 System.out.println(li);
 }
 }
-Comparable

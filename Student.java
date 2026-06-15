@@ -1,5 +1,6 @@
 import java.util.Collections;
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Arrays;
 public class Student implements Comparable<Student> {
     String name;
     int age;
@@ -41,7 +42,7 @@ else
         
         
 
-
+List<Integer> a= Arrays.asList(1,2,3);
         
 
 
