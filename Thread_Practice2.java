@@ -24,8 +24,8 @@ class Thread_Practice3
 			}
 			}
 		};
-		LearningI t1=new LearningI(r1);
-		LearningI t2=new LearningI(r2);
+		Thread t1=new Thread(r1);
+		Thread t2=new Thread(r2);
 		t1.start();
 		t2.start();
 		try{
