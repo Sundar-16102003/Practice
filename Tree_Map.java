@@ -23,7 +23,8 @@ class Tree_Map
 		System.out.println(tm);
 		System.out.println(tm.remove("jaga"));
 		System.out.println(tm);
-		System.out.println(tm.get("Sundar"));//null
+		System.out.println(tm.get("Sundar"));//null capital S
+		System.out.println(tm.get("rajesh"));
 	}
 	
 }

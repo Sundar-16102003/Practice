@@ -9,13 +9,13 @@ class Dq
 		dq.addFirst(12);
 		dq.addLast(13);
 		dq.addLast(14);
-	dq.pollFirst();
-	dq.pollFirst();
-	System.out.println(dq);
-	System.out.println(dq.peekFirst());
-	System.out.println(dq.peekLast());
-	dq.pollLast();
-	System.out.println(dq);
+	dq.pollFirst();//12
+	dq.pollFirst();//11
+	System.out.println(dq);//10,13,14
+	System.out.println(dq.peekFirst());//10
+	System.out.println(dq.peekLast());//14
+	dq.pollLast();//14
+	System.out.println(dq);//10,13
 		
 	}
 }
