@@ -1,0 +1,14 @@
+/* div p{
+    position:absolute;
+    left:0px;
+    bottom:50px;
+    border:2px red solid;
+} */
+ #para
+ {
+    border:2px blue solid;
+    position:fixed;
+    top: 0px;
+    background-color: pink;
+
+ }

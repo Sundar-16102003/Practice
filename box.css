@@ -1,0 +1,50 @@
+#outer
+{
+    border:2px green;
+    padding:20px;
+
+}
+#oneplus
+{   
+    border:2px solid black;
+    margin-left:550px;
+    margin-bottom:250px;
+    padding:50px;
+    padding-left:45px;
+    padding-bottom:50px;
+    width:300px;
+    padding-top:25px;
+    padding-right:45px;
+    border-radius:56px;
+}
+#img
+{
+    height:auto;
+    width:300px;
+}
+.h1{
+    padding-left:100px;
+}
+#img1
+{
+    height:100px;
+    width:300px;
+    padding-left:200px;
+
+}
+#iphone
+{
+    border:2px solid black;
+    margin-left:550px;
+    margin-bottom:250px;
+    padding:50px;
+    padding-left:45px;
+    padding-bottom:50px;
+    width:300px;
+    padding-top:25px;
+    padding-right:45px;
+    border-radius:350px;
+    .h1{
+        padding-left:70px;
+    }
+}

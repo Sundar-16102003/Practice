@@ -15,7 +15,7 @@ class Stream_Practice
         .map(f)
         .reduce(0,(sal,bon) -> sal+bon);
         
-       // System.out.println(res);
+        System.out.println(res);
 
 		
 		
