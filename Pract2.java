@@ -10,7 +10,7 @@ public class Pract2 {
 
         Comparator<String> cs=(a, b) ->  a.length()>b.length()?1:-1; 
         ArrayList<String> al=new ArrayList<String>();
-        al.add("sundar");
+        al.add("sundar");,
         al.add("ashok");
         al.add("rajesh");
         al.add("nithiyan");

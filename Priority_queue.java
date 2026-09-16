@@ -10,6 +10,7 @@ class Priority_queue
 		q.add(1);
 		q.add(100);
 		q.add(3);
+		System.out.println(q);
 		System.out.println(q.peek());//1
 		q.poll();//
 		System.out.println(q.peek());//3

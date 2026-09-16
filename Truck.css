@@ -1,0 +1,74 @@
+.icon
+{
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:565px;
+    animation-name: truck-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear ;
+}
+@keyframes truck-animation {
+    from{
+        transform:translateX(-200px);
+    }
+to {
+    transform:translateX(1600px);
+}
+}
+/* body{
+    overflow: hidden;
+    
+} */
+.clouds
+{
+    position:relative;
+    width:200px;
+    height:200px;
+    left:1300px;
+    right: 10px;
+    animation-name: smallclouds;
+    animation-duration: 3s;
+    animation-delay:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+     opacity:0.2;
+}
+/* https://media.magipik.com/sample/data/preview/logistics-trucks-icons-collection-various-cars-types-157358.png?w=1024&q=100 */
+/* https://static.vecteezy.com/system/resources/previews/015/090/488/original/toy-truck-icon-cartoon-style-vector.jpg */
+@keyframes smallclouds {
+    from{
+        right:-10px;
+    }
+    to 
+    {
+        left:-300px;
+    }
+}
+.suncloud
+{
+    width:200px;
+    height:200px;
+    position:relative;
+    top:200px;
+    left:700px;
+    right:20px;
+      animation-name: smallclouds;
+    animation-duration: 3s;
+    animation-delay:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    opacity: 1;
+   
+}
+.sun{
+    position: relative;
+border:1px solid black;
+height:100px;
+width:100px;
+top:-40px;
+border-radius: 70px;
+background-color: yellow;
+z-index: 1;
+}

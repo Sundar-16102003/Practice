@@ -1,0 +1,15 @@
+.parent
+{
+    width:200px;
+    height:200px;
+    margin-top:200px;
+    margin-left:200px;
+    border:solid black 2px;
+    position:static;
+}
+h1
+{
+    position:absolute;
+    left:50px;
+    top:50px;
+}

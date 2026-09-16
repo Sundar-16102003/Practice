@@ -9,6 +9,7 @@ class Dq
 		dq.addFirst(12);
 		dq.addLast(13);
 		dq.addLast(14);
+			System.out.println(dq);
 	dq.pollFirst();//12
 	dq.pollFirst();//11
 	System.out.println(dq);//10,13,14
